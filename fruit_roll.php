@@ -15,12 +15,12 @@
     $apple_ar_frukt = true;
 
     if ($apple_ar_frukt==true){
-        echo '<img src="bilder/apple.jpg" alt="Äpple">';
+        echo '<img src="bilder/apple.jpg" alt="Äpple" height="40%" width="40%">';
         echo 'äpplen är frukt <br>';
            
     }
     if($banan_ar_frukt == true){
-        echo '<img src="bilder/banan.jpg" alt="Banan">';
+        echo '<img src="bilder/banan.jpg" alt="Banan" height="40%" width="40%">';
         echo 'banan är frukt';
     }
 
