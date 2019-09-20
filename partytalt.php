@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Git out of here</title>
+    <title>är bananer och äpplen frukt?</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -11,11 +11,12 @@
 <?php
 try {
 
-    $banan_ar_frukt = false;
-    $apple_ar_frukt = false;
+    $banan_ar_frukt = true;
+    $apple_ar_frukt = true;
 
     if ($apple_ar_frukt==true){
-        echo 'äpplen är frukt';   
+        echo 'äpplen är frukt <br>';
+           
     }
     if($banan_ar_frukt == true){
         echo 'banan är frukt';
@@ -25,11 +26,7 @@ try {
 }catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
 }
-/*
-Git out of here!
-Syftet med denna hemsida är att visa om en banan eller äpple är en frukt
-(Kan det bli bättre än ovan????)
-*/
+
 ?>
 </body>
 </html>
