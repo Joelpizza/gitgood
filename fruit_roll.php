@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>är bananer och äpplen frukt?</title>
+    <title>Är bananer och äpplen frukt?</title>
     <meta name="description" content="bananer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
