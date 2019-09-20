@@ -11,18 +11,23 @@
 <img src="bilder/espresso.jpg">
 <?php
 try {
-    $frukt1 = true;
-    $frukt2 = true;
 
+    $banan_ar_frukt = false;
+    $apple_ar_frukt = false;
 
-
-    $banan_ar_frukt = $frukt1;
-    $apple_ar_frukt = $frukt2;
-
-    if ($banan_ar_frukt == true && $apple_ar_frukt==true){
+    if ($apple_ar_frukt==true){
         
-         echo 'bananer och äpplen är frukt';
+         echo 'äpplen är frukt';
         
+    }
+    else{
+        echo 'äpplen är slavar';
+    }
+    if($banan_ar_frukt == true){
+        echo 'banan är frukt';
+    }
+    else{
+        echo 'banan är bär';
     }
     
 }catch (Exception $e) {
