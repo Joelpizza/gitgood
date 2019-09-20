@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Är bananer och äpplen frukt?</title>
-    <meta name="description" content="bananer">
+    <meta name="description" content="Bananer och äpplen smakar gött">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
