@@ -14,16 +14,15 @@ try {
     $frukt1 = true;
     $frukt2 = true;
 
-    $banan = 1;
-    $Äpple = 2;
+
 
     $banan_ar_frukt = $frukt1;
     $apple_ar_frukt = $frukt2;
 
-    if ($banan_ar_frukt == true){
-        if ($banan + 1 == $Äpple){
-            echo 'suveränt';
-        } 
+    if ($banan_ar_frukt == true && $apple_ar_frukt==true){
+        
+         echo 'bananer och äpplen är frukt';
+        
     }
     
 }catch (Exception $e) {
