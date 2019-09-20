@@ -24,20 +24,6 @@
         echo 'banan är frukt';
     }
 
-
-
-    
-
-
-    //Kommer det ske en conflict?
-
-
-
-}catch (Exception $e) {
-    echo 'Caught exception: ',  $e->getMessage(), "\n";
-}
-
-
 ?>
 </body>
 </html>
