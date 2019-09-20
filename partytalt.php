@@ -15,18 +15,23 @@
     $apple_ar_frukt = true;
 
     if ($apple_ar_frukt==true){
+        echo '<img src="bilder/apple.jpg" alt="Äpple">';
         echo 'äpplen är frukt <br>';
            
     }
     if($banan_ar_frukt == true){
+        echo '<img src="bilder/banan.jpg" alt="Banan">';
         echo 'banan är frukt';
     }
+
 
 
     
 
 
     //Kommer det ske en conflict?
+
+
 
 }catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
@@ -36,5 +41,3 @@
 ?>
 </body>
 </html>
-
-iuasbgdciuabsciuabsc
